@@ -1,0 +1,5 @@
+server:
+    port: 8081
+app:
+    service-principal: QCCOMP/qccomp.nhstest.leon.net@NHSTEST.LEON.NET
+    keytab-location: /tmp/qccomp.keytab
