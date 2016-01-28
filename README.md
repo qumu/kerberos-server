@@ -81,7 +81,12 @@ java -jar build/libs/kerberos-server-0.1.jar
 
 * Tomcat will be launched in the specified port, and the status endpoint should be visible `http://localhost:port/status`
 
+* Config file `application.yml` can be overriden at execution time. Just provide a file with the same name in directory the previous command in executed from (not where the JAR lives) or give an extra command line argument pointing
+to a specific config file:
 
+```
+java -jar build/libs/kerberos-client-0.1.jar --spring.config.location=/path/to/propertiesFile.yml
+```
 
 
 
