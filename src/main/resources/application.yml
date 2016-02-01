@@ -1,3 +1,5 @@
+# Service principal can be the same SPN as the client or a dedicated one issued in the same
+# Kerberos realm
 server:
     port: 8081
 app:
